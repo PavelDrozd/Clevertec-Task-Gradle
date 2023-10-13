@@ -3,10 +3,10 @@ package com.clevertec;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class StringUtilsTest {
+public class UtilsTest {
 
     @Test
     public void positiveInTrueOut() {
-        Assertions.assertTrue(StringUtils.isPositiveNumber("12"));
+        Assertions.assertTrue(Utils.isAllPositiveNumbers("22", "120"));
     }
 }

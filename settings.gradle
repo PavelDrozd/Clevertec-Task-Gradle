@@ -1,1 +1,4 @@
 rootProject.name = 'Clevertec-Task-Gradle'
+include 'core'
+include 'api'
+
