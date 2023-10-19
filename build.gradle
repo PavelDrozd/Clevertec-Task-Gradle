@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.clevetec'
+version = '0.1'
+
+jar {
+    jar.archiveBaseName = "utils"
+    manifest {
+        attributes 'JAR-Name': jar.archiveBaseName,
+                'JAR-Version': version
+    }
+}
