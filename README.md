@@ -6,5 +6,4 @@
 - Jacoco 0.8.9
 
 ### This project check input array of numbers in String type and if this array have all positive numbers return true.
-### There is local library utils-0.1 which have StringUtils class checked for a positive number and is used in Utils class.
 ### Jacoco create a test report.
